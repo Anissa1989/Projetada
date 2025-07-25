@@ -23,11 +23,7 @@ function getHumanChoice(choice){
 appelerfunction =  getHumanChoice(choice)
 console.log ("Vous avez joué: " + choice)
 
-// étape 4
-let humanScore = 0
-let computerScore = 0
-console.log ("Score Humain" = humanScore)
-console.log ("score PC" = computerScore)
+
 
 
 
