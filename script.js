@@ -1,28 +1,29 @@
 console.log("Hello Javascript!")
 
 function getComputerChoice(choices){
-//let choices = ["pierre","papier", "ciseaux"];
+//let choices = ["Pierre","Papier", "Ciseaux"];
 let randomChoices = choices[Math.floor(Math.random() * choices.length)];
 return randomChoices
 }
-let choiceComputer = getComputerChoice(["pierre","papier", "ciseaux"])
+let choiceComputer = getComputerChoice(["Pierre","Papier", "Ciseaux"])
 console.log("Votre adversaire joue " + choiceComputer);
 
 
 // SALOME EXO
 let choice = prompt ("Quel est votre choix?")
 function getHumanChoice(choice){
-    let choices = ["pierre", "papier", "ciseaux"];
+    let choices = ["Pierre", "Papier", "Ciseaux"];
     if (choices.includes(choice)) {
         return choice;
     } else {
-        alert("Choix invalide, veuillez choisir entre pierre, papier ou ciseaux.");
+        alert("Choix invalide, veuillez choisir entre Pierre, Papier ou Ciseaux.");
         return null;
     }
 }
 appelerfunction =  getHumanChoice(choice)
 console.log ("Vous avez joué: " + choice)
 
+<<<<<<< HEAD
 // étape 4
 let humanScore = 0;
 let computerScore = 0;
@@ -47,7 +48,6 @@ let computerScore = 0;
 }
 appelerfunction = playRound("ciseaux", "papier", "pierre")
 console.log(appelerfunction)
-
 
 
 
