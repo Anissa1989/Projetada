@@ -8,3 +8,6 @@ return randomChoices
 let choiceComputer = getComputerChoice(["Pierre","Papier", "Ciseaux"])
 console.log("Votre adversaire joue " + choiceComputer);
 
+let choice = prompt ("Quel est votre choix?")
+function getHumanChoice(choice) {
+    alert ("Vous avez joué: " + choice)}
