@@ -1,4 +1,7 @@
 console.log("Hello Javascript!")
+=======
+console.log("Hello Javascript");
+>>>>>>> Stashed changes
 
 function getComputerChoice(choices){
 //let choices = ["Pierre","Papier", "Ciseaux"];
