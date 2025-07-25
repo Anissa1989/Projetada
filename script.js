@@ -11,16 +11,4 @@ console.log("Votre adversaire joue " + choiceComputer);
 let choice = prompt ("Quel est votre choix?")
 function getHumanChoice(choice) {
     alerte ("Vous avez joué: " + choice)}
-    if (choice !== "Papier")
-        {
-        console.log ("Veuillez choisir Papier, Caillou ou Ciseaux")
-    }
-      if (choice !== "Caillou")
-        {
-         console.log ("Veuillez choisir Papier, Caillou ou Ciseaux")
-    }
-  if (choice !== "Ciseaux")
-        {
-        console.log ("Veuillez choisir Papier, Caillou ou Ciseaux")
-    }
 console.log ("Vous avez joué: " + choice)
